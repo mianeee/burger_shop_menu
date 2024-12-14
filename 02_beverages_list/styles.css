@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff7db;
+    color: #000;
+    height: auto;
+    overflow-y: auto;
+}
+
+  
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #FFAE00;
+    
+  }
+  
+  .title {
+    color: #2d2100;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+  
+  .profile-icon,
+  .notification-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+/* Back Memu Navigation */
+.group-back-icon {
+    display: flex;
+    align-items: center; 
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+
+.icon-back-image{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+    margin-right: 8px; 
+}
+
+
+p{
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+/* Menu Grid */
+    .menu-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .item {
+        background: #FFF;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 10px;
+    }
+
+    .image {
+        border-radius: 20px;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        object-fit: cover;
+    }
+
+    .label, .price { 
+        color: #000000;
+        text-align: center;
+        font-family: "PatuaOne-Regular", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+
+    }
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFAE00;
+    padding: 15px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .icon-home, .icon-settings, .icon-cart, .icon-favorites {
+    width: 32px;
+    height: 32px;
+  
+  }
+  
