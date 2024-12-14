@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff7db;
+    color: #000;
+    height: auto;
+    overflow-y: auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #FFAE00;
+    
+  }
+  
+  .title {
+    color: #2d2100;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+  
+  .profile-icon,
+  .notification-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+/* Back Memu Navigation */
+    
+    .group-back-icon {
+        display: flex;
+        align-items: center; 
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
+        padding: 15px;
+        
+    }
+    
+    .icon-back-image{
+        width: 32px;
+        height: 32px;
+        position: relative;
+        overflow: visible;
+        margin-right: 8px; 
+    }
+
+
+    p{
+        color: #000000;
+        text-align: left;
+        font-family: "PatuaOne-Regular", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        
+    }
+
+
+
+/* Cart Container */
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; 
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    gap: 20px 100px;
+
+
+}
+
+.images {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+
+}
+.label {
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.price {
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 13px;
+
+    position: relative;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    background: #ffae00;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    width: 70px;
+    height: 27.04px;
+    position: relative;
+}
+
+.icon-add, .icon-minus{
+    width: 12.92px;
+    height: 14.11px;
+    position: relative;
+    overflow: visible;
+}
+
+.quatity-number{
+    color: #000000;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    width: 3.23px;
+    height: 15.28px;
+
+}
+
+.item-price {
+    font-weight: bold;
+    color: #000000;
+    text-align: end;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    white-space: nowrap;
+}
+
+/* Restaurant Section */
+.restaurant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffae00;
+    border-radius: 40px;
+    height: 33px;
+    position: relative;
+    padding: 15px;
+    margin: 20px 0;
+
+}
+
+.label-restaurant {
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+.icon-select{
+    width: 12.92px;
+    height: 14.11px;
+    position: relative;
+    overflow: visible;
+}
+
+/* Total Section */
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFB800;
+    padding: 10px ;
+    border-radius: 40px;
+}
+
+.label-total{
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.total-number{
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFAE00;
+    padding: 15px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .icon-home, .icon-settings, .icon-cart, .icon-favorites {
+    width: 32px;
+    height: 32px;
+  
+  }
+  
+
+/* RESPONSIVE DESIGN */
+
