@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff7db;
+    color: #000;
+    line-height: 1.5;
+}
+
+.dessert-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff9e6;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    margin-top: -20px;
+    position: relative;
+}
+
+/* Back Memu Navigation */
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+    
+  }
+
+.group-back-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+.icon-back-image{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+    margin-right: 8px; 
+}
+
+.icon-favorites{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+}
+
+p{
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+/*Description*/
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label{
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.price{
+    color: #000000;
+    text-align: left;
+    font-family: "PatuaOne-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.description{
+    color: #000000;
+    text-align: left;
+    font-family: "Piazzolla-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    height: 42px;
+    margin-bottom: 10px;
+}
+
+.nutrition{
+    color: #000000;
+    list-style-type: disc;
+    padding-left: 1em;
+    font-family: "Piazzolla-Regular", sans-serif;
+    font-size: 15px;
+    
+    
+}
+.nutrition li {
+    margin-bottom: 5px;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity{
+    display: flex;
+    align-items: center;
+    background: #ffae00;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    width: 70px;
+    height: 27.04px;
+    position: relative;
+}
+
+.icon-add, .icon-minus{
+    width: 12.92px;
+    height: 14.11px;
+    position: relative;
+    overflow: visible;
+}
+
+.add-to-cart{
+    background: #ffae00;
+    border-radius: 40px;
+    width: 200px;
+    height: 70px;
+    color: #2d2100;
+    text-align: justify;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    padding: 20px 50px;
+   
+   
+}
